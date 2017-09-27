@@ -66,10 +66,9 @@ for (var i = 10; i > 0; i--) {
 // **num starts at 0 and adds 1 each times it iterates through the loop
 var base = 5;
 function loopBaseTwentyTimes() {
-  number = 1;
   for (var i = 20; i > 0; i--) {
     console.log(`${base}`);
-    base += number;
+    base++;
   }
 }
 loopBaseTwentyTimes()
@@ -82,11 +81,15 @@ loopBaseTwentyTimes()
 // end
 // puts total
 var total = 0;
-function incream() {
-
+function loopBaseHundredTimes() {
+  number = 0;
+  for (var i = 100; i > 0; i--) {
+    total += number;
+    number++;
+  }
+  console.log(total);
 }
-
-
+loopBaseHundredTimes()
 
 
 // -----********-----
