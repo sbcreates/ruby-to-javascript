@@ -35,6 +35,18 @@ var words = {
 //   puts "#{num} must be less than 10."
 // end
 
+var num = 16;
+function checkNumValue(num) {
+  if (num > 10) {
+    console.log(`${num} is greater than 10.`);
+  } else if (num === 10) {
+    console.log(`${num} is exactly 10`);
+  } else {
+    console.log(`${num} must be less than 10.`);
+  }
+}
+checkNumValue(num)
+
 
 // -----********-----
 // 10.times do
