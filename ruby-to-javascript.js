@@ -53,12 +53,26 @@ checkNumValue(num)
 //   puts "Doing the same thing over and over."
 // end
 
+for (var i = 10; i > 0; i--) {
+  console.log("Doing the same thing over and over.");
+}
+
 
 // -----********-----
 // base = 5
 // 20.times do |num|
 //   puts num + base
 // end
+// **num starts at 0 and adds 1 each times it iterates through the loop
+var base = 5;
+function loopBaseTwentyTimes() {
+  number = 1;
+  for (var i = 20; i > 0; i--) {
+    console.log(`${base}`);
+    base += number;
+  }
+}
+loopBaseTwentyTimes()
 
 
 // -----********-----
@@ -67,6 +81,12 @@ checkNumValue(num)
 //   total += num
 // end
 // puts total
+var total = 0;
+function incream() {
+
+}
+
+
 
 
 // -----********-----
