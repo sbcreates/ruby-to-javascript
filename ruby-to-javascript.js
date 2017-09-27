@@ -119,7 +119,10 @@ heightRange.forEach(function(height){
 // containers.each do |container|
 //   puts container
 // end
-
+var containers = ['purse', 'wallet', 'backback'];
+containers.forEach(function(container) {
+  console.log(container);
+})
 
 
 
