@@ -100,6 +100,18 @@ loopBaseHundredTimes()
 //     puts "You are too short to ride this rollercoaster."
 //   end
 // end
+var heightRange = [];
+for (var i = 3; i <= 15; i++) {
+  heightRange.push(i)
+}
+
+heightRange.forEach(function(height){
+  if (height > 9){
+    console.log("You can get on the rollercoaster.");
+  } else {
+    console.log("You are too short to ride this rollercoaster.");
+  }
+})
 
 
 // -----********-----
@@ -107,6 +119,7 @@ loopBaseHundredTimes()
 // containers.each do |container|
 //   puts container
 // end
+
 
 
 
