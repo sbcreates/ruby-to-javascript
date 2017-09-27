@@ -125,14 +125,16 @@ containers.forEach(function(container) {
 })
 
 
-
 // -----********-----
 // def hello_world
 //   puts "Hello world!"
 // end
 //
 // hello_world
-
+function helloWorld() {
+  console.log("Hello world!");
+}
+helloWorld()
 
 // -----********-----
 // def add(first_num, second_num)
