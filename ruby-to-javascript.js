@@ -143,3 +143,8 @@ helloWorld()
 //
 // amount = add(5, 7)
 // puts amount
+function addNums(firstNum, secondNum) {
+  return firstNum + secondNum;
+}
+var amount = addNums(5, 7);
+console.log(amount);
